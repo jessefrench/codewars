@@ -10,10 +10,10 @@
 
 // SOLUTION:
 function spinWords(str){
-    return str.length >= 5 ?
-      str
-        .split(' ')
-        .map((a) => (a.length >= 5 ? a.split('').reverse().join('') : a))
-        .join(' ')
-    : str
+  return str.length >= 5 ?
+    str
+      .split(' ')
+      .map((a) => (a.length >= 5 ? a.split('').reverse().join('') : a))
+      .join(' ')
+  : str
 }
