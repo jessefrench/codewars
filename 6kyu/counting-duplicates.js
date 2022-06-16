@@ -13,26 +13,14 @@
 // "ABBA" -> 2 # 'A' and 'B' each occur twice
 
 // SOLUTION:
-
-// Parameters: a string that includes numbers, lowercase letters, and uppercase letters
-// Returns: the number of duplicate characters in the string
-// Examples: "abcde" -> 0; "aabbcde" -> 2
-// Pseudo code: 
-
-// function that takes in a string
 function duplicateCount(text){
-    // variable that splits the string, sorts it, and changes all characters to lowercase
-    let splitString = text.toLowerCase().split("").sort()
-    // variable to store results as an array
-    let results = []
-    // for loop to move through each character
-    for(let i = 0; i < splitString.length; i++){
-        // if duplicates are found, return count 
-        if(splitString[i] === splitString[i + 1]){
-          results.push(splitString[i])
-        }
+  let splitString = text.toLowerCase().split('').sort()
+  let results = []
+  for(let i = 0; i < splitString.length; i++){
+    if(splitString[i] === splitString[i + 1]){
+      results.push(splitString[i])
     }
-    // display results
-    const setArray = new Set(results)
-    return setArray.size
+  }
+  const setArray = new Set(results)
+  return setArray.size
 }
