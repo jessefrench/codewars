@@ -13,6 +13,7 @@ Write a program where Alex can input (n) how many times the hoop goes round and 
 // Examples: hoopCount(12) => "Great, now move on to tricks"
 // Pseudo code: Function 'hoopCount()' passes 'n' as an input for how many times the hoop goes around. Using conditional logic, the program returns one string if 'n' is greater or equal to 10, and the other string if not.
 
+// Time to solve:
 function hoopCount(n){
     if(n >= 10){
         return 'Great, now move on to tricks'
