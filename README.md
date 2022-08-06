@@ -10,11 +10,15 @@ Recently I've started using something called The P.R.E.P. Method to solve my cod
 // Parameters: 
 // Returns: 
 // Examples: 
-// Pseudo code: 
+// Pseudo code:
 
-// Time to solve: 
 function example(){
-  // your code here
+  // do this
+  
+  // then this
+  
+  // and return this
+  
 }
 ```
 
