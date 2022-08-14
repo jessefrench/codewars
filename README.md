@@ -32,7 +32,7 @@ Let's give this a shot using P.R.E.P.
     
 ```
 
-Now that we have our pseudo code written out, let's finish this out with the actual code.
+Now that we have our pseudo code written, let's finish this out with the actual code.
 
 ```javascript
 // function that takes in an array
