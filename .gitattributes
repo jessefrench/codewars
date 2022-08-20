@@ -1,0 +1,10 @@
+# Linguist overrides
+*.js linguist-detectable=true
+*.md linguist-detectable=false
+README.md linguist-detectable=false
+readme.md linguist-detectable=false
+
+*.js linguist-vendored=false
+*.js linguist-generated=false
+*.js linguist-documentation=false
+*.js linguist-detectable=true
