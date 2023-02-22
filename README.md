@@ -4,7 +4,7 @@ I like to complete at least one challenge from [Codewars](https://codewars.com) 
 ![codewars](https://user-images.githubusercontent.com/106822556/178802792-15c8887e-9228-4014-b07c-a0c3051bcba1.png)
 
 ## P.R.E.P.
-Recently I've started using something called P.R.E.P. to solve my coding challenges. It stands for Parameters, Returns, Examples, and Pseudo code. It's a great way to quickly break down a problem to better understand what needs to happen. I will provide an example further down.
+Recently I've started using something called P.R.E.P. to solve my coding challenges. It stands for Parameters, Returns, Examples, and Pseudocode. It's a great way to quickly break down a problem to better understand what needs to happen. I will provide an example further down.
 
 Let's say you will be given a list of strings. You must sort it alphabetically (case-sensitive, and based on the ASCII values of the chars) and then return the first value.
 
@@ -18,7 +18,7 @@ Let's give this a shot using P.R.E.P.
 // Parameters: an array of strings (case-sensitive)
 // Returns: first value of sorted array with '***' between each letter
 // Examples: ['this', 'is', 'an', 'example'] => 'a***n'
-// Pseudo code:
+// Pseudocode:
 
 // function that takes in an array
 
@@ -32,7 +32,7 @@ Let's give this a shot using P.R.E.P.
     
 ```
 
-Now that we have our pseudo code written, let's finish this out with the actual code.
+Now that we have our pseudocode written, let's finish this out with the actual code.
 
 ```javascript
 // function that takes in an array
@@ -49,7 +49,7 @@ function twoSort(s){
 }
 ```
 
-Sometimes coding challenges can be overwhelming with the amount of information they throw at you, but using this method allows me to focus in on only the most important parts, and by writing out my pseudo code first, I have a good outline for what the real code might look like.
+Sometimes coding challenges can be overwhelming with the amount of information they throw at you, but using this method allows me to focus in on only the most important parts, and by writing out my pseudocode first, I have a good outline for what the real code might look like.
 
 ## Current Rank
 ![badge](https://www.codewars.com/users/jessefrench/badges/large)
